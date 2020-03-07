@@ -1,0 +1,57 @@
+header{
+	display: block;
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+
+}
+header h2{
+	color: #ccc;
+	font-size: 50px;
+	text-align: center;
+	background-color: #fff;
+	
+}
+header #newgame{
+	display: block;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	margin: 20px auto;
+	background-color: #3af;
+	border-radius: 10px;
+}
+header #score{
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+
+}
+#container{
+	width: 500px;
+	height: 500px;
+	background-color:#bbada0;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 20px auto;
+	border-radius: 10px;
+	position: relative;
+}
+.cell{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 8px;
+	background-color: #ccc0b3;
+}
+.numcell{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 100px;
+
+}
